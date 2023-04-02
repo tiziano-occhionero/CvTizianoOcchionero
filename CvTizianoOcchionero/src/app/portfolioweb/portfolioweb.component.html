@@ -1,0 +1,14 @@
+<div class="container">
+    <section>
+        <div class="testata">
+            <h2>Portfolio web</h2>
+        </div>
+        <div class="divFor" *ngFor="let item of datiPW">
+            <div class="itemPortW">
+                <a href="{{item.url}}">{{item.title}}</a>
+                <p>{{item.p}}</p>
+            </div>
+        </div>
+
+    </section>
+</div>

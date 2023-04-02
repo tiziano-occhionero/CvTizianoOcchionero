@@ -1,0 +1,30 @@
+.container {
+    display: flex;
+    justify-content: center;
+    background-color: aliceblue;
+    width: 100%;
+    min-height: 89.3vh;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    background-color: antiquewhite;
+    width: 1200px;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+
+.testata {
+    display: flex;
+}
+
+.dove {
+    display: flex;
+}
+
+.dove h4 {
+    margin-right: 10px;
+}

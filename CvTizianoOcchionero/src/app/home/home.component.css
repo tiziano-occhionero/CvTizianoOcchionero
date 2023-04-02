@@ -1,0 +1,55 @@
+.container {
+    display: flex;
+    justify-content: center;
+    background-color: aliceblue;
+    width: 100%;
+    min-height: 89.3vh;
+}
+
+section {
+    display: flex;
+    align-items: center;
+    background-color: antiquewhite;
+    width: 1200px;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+
+.testata {
+    display: flex;
+}
+
+.foto{
+    padding-right: 24px;
+}
+
+.foto img{
+    max-width: 10rem;
+    max-height: 10rem;
+    border: 0.25rem solid #004b80;
+    border-radius: 100%;
+}
+
+.titoli{
+    padding-left: 24px;
+}
+
+.nomecognome{
+    display: flex;
+}
+
+.recapiti {
+    display: flex;
+}
+
+.social-icon{
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 2rem;
+    border-radius: 100%;
+    font-size: 1.5rem;
+    margin-right: 1.5rem;
+}

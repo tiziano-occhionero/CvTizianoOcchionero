@@ -1,0 +1,16 @@
+<div class="container">
+    <section>
+        <div class="testata">
+            <h2>Istruzione</h2>
+        </div>
+        <div class="istFor" *ngFor="let item of datiIst">            
+            <h3>{{item.title}}</h3>
+            <div class="dove">
+                <h4>{{item.dove}}</h4>
+                <p>{{item.tipo}}</p>
+            </div>            
+            <p>{{item.cosa}}</p>
+            <p>{{item.quando}}</p> 
+        </div>
+    </section>
+</div>
