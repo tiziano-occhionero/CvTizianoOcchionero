@@ -42,6 +42,7 @@ section {
 
 .recapiti {
     display: flex;
+    flex-wrap: wrap;
 }
 
 .social-icon{

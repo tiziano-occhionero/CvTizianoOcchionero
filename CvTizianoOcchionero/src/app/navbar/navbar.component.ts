@@ -16,3 +16,4 @@ export class NavbarComponent {
   riconoscimenti: boolean = false;
   form: boolean = false
 }
+
