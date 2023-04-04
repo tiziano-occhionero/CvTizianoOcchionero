@@ -1,16 +1,13 @@
 .container {
     display: flex;
-    justify-content: center;
-    background-color: aliceblue;
-    width: 100%;
+    justify-content: center;    
     min-height: 89.3vh;
 }
 
 section {
     display: flex;
-    align-items: center;
-    background-color: antiquewhite;
-    width: 1200px;
+    align-items: center;    
+    max-width: 1200px;
     padding-left: 3rem;
     padding-right: 3rem;
     padding-top: 5rem;
@@ -38,11 +35,33 @@ section {
 
 .nomecognome{
     display: flex;
+    font-size: 3rem;
 }
 
-.recapiti {
+.nome{
+    color: #343a40;
+}
+
+.cognome{
+    color: #004b80;
+}
+
+.recapiti{
     display: flex;
     flex-wrap: wrap;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 1.15rem;
+    margin-bottom: 3rem;
+}
+
+.recapiti span {
+    margin: 0 3px;
+}
+
+.presentazione{
+    font-size: 1.15rem;
+    max-width: 94%;
 }
 
 .social-icon{
@@ -53,4 +72,52 @@ section {
     border-radius: 100%;
     font-size: 1.5rem;
     margin-right: 1.5rem;
+}
+
+@media only screen and (max-width: 1199.98px) {
+    .foto {
+        padding-right: 12px;
+    }
+    .titoli {
+        padding-left: 12px;
+    }
+}
+    
+@media only screen and (max-width: 991.98px) {
+    section {
+        padding-top: 0;
+    }
+    .testata {
+        display: block;
+        text-align: justify;
+    }
+    .foto {
+        display: flex;
+        justify-content: center;
+        padding-right: 0;
+    }
+    .nomecognome{
+        display: flex;
+        flex-wrap: wrap;
+        line-height: 50px;
+        font-size: 2rem;
+    }
+    .titoli {
+        padding-left: 0;
+    }
+}
+
+@media only screen and (max-width: 767.98px) {
+    section{
+        padding: 2rem 1.5rem;
+    }
+    
+    .recapiti{
+        margin-top: 1rem;
+    }
+}
+
+@media only screen and (max-width: 575.98px) {
+    
+
 }
