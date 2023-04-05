@@ -21,6 +21,11 @@ section {
     display: flex;
 }
 
+.titoloData {
+    display: flex;
+    justify-content: space-between;
+}
+
 .dove {
     display: flex;
 }
