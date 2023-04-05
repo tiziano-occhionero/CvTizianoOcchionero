@@ -6,14 +6,15 @@
         <div class="espFor" *ngFor="let item of datiEsp">
             <div class="titoloData">
                 <h3>{{item.title}}</h3>
-                <p>{{item.quando}}</p>
+                <p class="quandoFull">{{item.quando}}</p>
             </div>            
             <div class="dove">
                 <h4>{{item.dove}}</h4>
-                <p>{{item.tipo}}</p>
-            </div>            
+                <p class="tipoFull">{{item.tipo}}</p>
+            </div>        
+            <p class="tipoResp">{{item.tipo}}</p>    
             <p>{{item.cosa}}</p>
-             
+            <p class="quandoResp">{{item.quando}}</p>
         </div>
     </section>
 </div>

@@ -6,82 +6,75 @@ import { Component } from '@angular/core';
   styleUrls: ['./skills.component.css']
 })
 
-/*
-export class SkillsComponent {
-  ambito = [
-    { title: "SVILLUPPO WEB (JUNIOR)",
-      img: "https://img.icons8.com/ios-filled/55/6c757d/javascript.png",
-      img: "https://img.icons8.com/material-rounded/62/6c757d/typescript.png",
-      img: "https://img.icons8.com/ios-filled/50/6c757d/git.png"          
-    }
-      
-    
-  ]
-}
-*/
-
 export class SkillsComponent {
   ambito = [
     { title: "SVILLUPPO WEB (JUNIOR)",
       loghi: [
-        { img: "https://img.icons8.com/ios-filled/55/6c757d/javascript.png",
+        { img: "../assets/icons8-javascript-50.png",
           title: "javascript"
         },
-        { img: "https://img.icons8.com/material-rounded/62/6c757d/typescript.png",
+        { img: "../assets/icons8-typescript-50.png",
           title: "typescript"
         },
-        { img: "https://img.icons8.com/ios-filled/50/6c757d/git.png",
-          title: "git"
+        { img: "../assets/icons8-node-js-50.png",
+          title: "node.js"
+        },
+        { img: "../assets/icons8-angularjs-50.png",
+          title: "angular"
+        },
+        { img: "../assets/icons8-mysql-logo-50.png",
+          title: "mtSql"
         }
+        
       ]
     },
     { title: "Web Design",
       loghi: [
-        { img: "https://img.icons8.com/windows/64/6c757d/bootstrap.png",
-          title: "Bootstrap"
-        },
-        { img: "https://img.icons8.com/ios-filled/50/6c757d/html-5.png",
+        { img: "../assets/icons8-html-5-is-a-software-solution-stack-that-defines-the-properties-and-behaviors-of-web-page-50.png",
           title: "HTML5"
         },
-        { img: "https://img.icons8.com/ios-glyphs/60/6c757d/css3.png",
+        { img: "../assets/icons8-css3-50.png",
           title: "CSS3"
         },
-        { img: "https://img.icons8.com/ios-filled/50/6c757d/sass.png",
+        { img: "../assets/icons8-bootstrap-50.png",
+          title: "Bootstrap"
+        },        
+        { img: "../assets/icons8-sass-50.png",
           title: "Sass"
         },
-        { img: "https://img.icons8.com/metro/52/6c757d/wordpress.png",
+        { img: "../assets/icons8-wordpress-50.png",
           title: "WordPress"
         },
-        { img: "https://img.icons8.com/material/52/6c757d/woocommerce.png",
+        { img: "../assets/icons8-woocommerce-50.png",
           title: "WooCommerce"
         }
       ]
     },
     { title: "UX / UI",
       loghi: [
-        { img: "https://img.icons8.com/material/64/6c757d/adobe-xd.png",
+        { img: "../assets/icons8-adobe-xd-50.png",
           title: "Adobe Xd"
         },
-        { img: "https://img.icons8.com/windows/64/6c757d/figma.png",
+        { img: "../assets/icons8-figma-50.png",
           title: "Figma"
         }
       ]
     },
     { title: "Strumenti Web e Grafica",
       loghi: [
-        { img: "https://img.icons8.com/ios-glyphs/60/6c757d/visual-studio.png",
+        { img: "../assets/icons8-visual-studio-code-2019-50.png",
           title: "Visual Studio Code"
         },
-        { img: "https://img.icons8.com/metro/52/6c757d/adobe-photoshop.png",
-          title: "Adobe Photoshop"
-        },
-        { img: "https://img.icons8.com/ios-filled/50/6c757d/git.png",
+        { img: "../assets/icons8-git-50.png",
           title: "git"
         },
-        { img: "https://img.icons8.com/metro/52/6c757d/adobe-illustrator.png",
+        { img: "../assets/icons8-adobe-photoshop-50.png",
+          title: "Adobe Photoshop"
+        },        
+        { img: "../assets/icons8-adobe-illustrator-50.png",
           title: "Adobe Illustrator"
         },
-        { img: "https://img.icons8.com/metro/52/6c757d/adobe-indesign.png",
+        { img: "../assets/icons8-adobe-indesign-50.png",
           title: "Adobe Indesign"
         }
       ]

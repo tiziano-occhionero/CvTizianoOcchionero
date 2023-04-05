@@ -1,7 +1,6 @@
 .container {
     display: flex;
     justify-content: center;
-    background-color: aliceblue;
     width: 100%;
     min-height: 89.3vh;
 }
@@ -9,8 +8,7 @@
 section {
     display: flex;
     flex-direction: column;
-    background-color: antiquewhite;
-    width: 1200px;
+    max-width: 1200px;
     padding-left: 3rem;
     padding-right: 3rem;
     padding-top: 5rem;
@@ -21,10 +19,91 @@ section {
     display: flex;
 }
 
+h2 {
+    font-size: 3.5rem;
+    color: #343a40;
+    margin-bottom: 3rem;    
+}
+
+
+h3 {
+    color: #343a40;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 1.7rem;
+    font-weight: 700;
+    line-height: 30px;
+}
+
+.quandoResp, .quandoFull {
+    color: #004b80;
+}
+
+.quandoResp, .tipoResp {
+    display: none;
+}
+
 .dove {
     display: flex;
 }
 
+.titoloData {
+    display: flex;
+    justify-content: space-between;
+}
+
 .dove h4 {
     margin-right: 10px;
+    font-size: 1.1rem;
+    font-weight: 500;
+}
+
+.dove p {
+    font-size: 1rem;
+}
+
+.istFor {
+    margin-bottom: 3rem;
+}
+
+@media only screen and (max-width: 1199.98px) {
+    
+}
+    
+@media only screen and (max-width: 991.98px) {
+    .testata {
+        display: block;
+        text-align: justify;
+    }
+    h2 {
+        font-size: 3rem;
+        margin-bottom: 2.5rem;   
+    }
+    .quandoFull, .tipoFull {
+        display: none;
+    }
+    .quandoResp, .tipoResp {
+        display: block;
+    }
+}
+
+@media only screen and (max-width: 767.98px) {
+    section{
+        padding: 2rem 1.5rem;
+    }
+    
+    h3 {
+        font-size: 1.5rem;
+        font-weight: 700;
+        line-height: 30px;
+    }
+    
+}
+
+@media only screen and (max-width: 575.98px) {
+    h3 {
+        font-size: 1.3rem;
+        font-weight: 700;
+        line-height: 30px;
+    }
 }

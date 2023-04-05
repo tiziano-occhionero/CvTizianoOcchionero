@@ -26,22 +26,12 @@ h2 {
     
 }
 
-.divFor{
-    display: flex;
-    margin-bottom: 1rem;
-}
-
-.itemPortW{
-    display: flex;
-    flex-direction: column;
-}
-
 a {
     color: #004b80;
     text-decoration: none;
     text-transform: uppercase;
     font-size: 1.7rem;
-    font-weight: 500;
+    font-weight: 600;
     line-height: 30px;
     margin-top: 1rem;
 }
@@ -66,13 +56,8 @@ a {
         padding: 2rem 1.5rem;
     }
 
-    .itemPortW > a {
-        font-size: 1.5rem;
-    }
 }
 
 @media only screen and (max-width: 575.98px) {
-    .itemPortW > a {
-        line-height: 24px;
-    }
+
 }

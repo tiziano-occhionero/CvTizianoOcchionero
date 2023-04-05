@@ -1,7 +1,6 @@
 .container {
     display: flex;
     justify-content: center;
-    background-color: aliceblue;
     width: 100%;
     min-height: 89.3vh;
 }
@@ -9,8 +8,7 @@
 section {
     display: flex;
     flex-direction: column;
-    background-color: antiquewhite;
-    width: 1200px;
+    max-width: 1200px;
     padding-left: 3rem;
     padding-right: 3rem;
     padding-top: 5rem;
@@ -19,4 +17,47 @@ section {
 
 .testata {
     display: flex;
-}   
+}
+
+h2 {
+    font-size: 3.5rem;
+    color: #343a40;
+    margin-bottom: 3rem;
+    
+}
+
+a {
+    color: #004b80;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 1.7rem;
+    font-weight: 600;
+    line-height: 30px;
+    margin-top: 1rem;
+}
+
+@media only screen and (max-width: 1199.98px) {
+    
+}
+    
+@media only screen and (max-width: 991.98px) {
+    .testata {
+        display: block;
+        text-align: justify;
+    }
+    h2 {
+        font-size: 3rem;
+        margin-bottom: 2.5rem;   
+    }
+}
+
+@media only screen and (max-width: 767.98px) {
+    section{
+        padding: 2rem 1.5rem;
+    }
+
+}
+
+@media only screen and (max-width: 575.98px) {
+
+}
