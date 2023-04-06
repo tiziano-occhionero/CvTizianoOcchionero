@@ -61,7 +61,7 @@ section {
 
 .presentazione{
     font-size: 1.15rem;
-    max-width: 94%;
+    text-align: justify;
 }
 
 .social-icon{
@@ -87,26 +87,33 @@ section {
 }
     
 @media only screen and (max-width: 991.98px) {
-    section {
-        padding-top: 0;
+    section{
+        padding: 2rem 2rem;
     }
     .testata {
         display: block;
-        text-align: justify;
+        
     }
     .foto {
         display: flex;
-        justify-content: center;
         padding-right: 0;
+        margin-bottom: 3rem;
+        justify-content: center;
     }
     .nomecognome{
         display: flex;
         flex-wrap: wrap;
+        justify-content: center;
         line-height: 50px;
         font-size: 2rem;
     }
+
     .titoli {
         padding-left: 0;
+    }
+
+    .recapiti {
+        justify-content: center;
     }
 }
 
@@ -114,13 +121,11 @@ section {
     section{
         padding: 2rem 1.5rem;
     }
-    
-    .recapiti{
-        margin-top: 1rem;
-    }
 }
 
 @media only screen and (max-width: 575.98px) {
-    
+    .foto, .nomecognome, .recapiti {
+        margin-bottom: 1rem;
+    }
 
 }
