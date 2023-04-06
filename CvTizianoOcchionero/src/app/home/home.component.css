@@ -2,11 +2,11 @@
     display: flex;
     justify-content: center;    
     min-height: 89.3vh;
-}
+} 
 
 section {
     display: flex;
-    align-items: center;    
+    align-items: center;
     max-width: 1200px;
     padding-left: 3rem;
     padding-right: 3rem;
@@ -80,6 +80,9 @@ section {
     }
     .titoli {
         padding-left: 12px;
+    }
+    .nomecognome {
+        font-size: 2.5rem;
     }
 }
     
