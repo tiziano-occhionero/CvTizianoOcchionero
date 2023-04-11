@@ -55,6 +55,15 @@ section {
     margin-bottom: 3rem;
 }
 
+.recapiti a {
+    color: #004b80;
+    text-decoration: none;
+}
+
+.recapiti a:hover {
+    text-decoration: underline;
+}
+
 .recapiti span {
     margin: 0 3px;
 }

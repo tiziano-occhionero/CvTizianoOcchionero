@@ -23,7 +23,7 @@ export class SkillsComponent {
           title: "angular"
         },
         { img: "../assets/icons8-mysql-logo-50.png",
-          title: "mtSql"
+          title: "Sql"
         }
         
       ]

@@ -12,7 +12,7 @@ export class EsperienzeComponent {
       dove: "ORRICK HERRINGTON & SUTCLIFFE LLP",
       tipo: "(STUDIO LEGALE) - ROMA",
       cosa: "Mansioni: Stampa di documenti e assistenza alle macchine da stampa Xerox di tutto lo stabile.",
-      quando: "05/2022 - 12/2022"
+      quando: "05/2022 - 02/2023"
     },
     {
       title: "EXECUTIVE WEB DESIGNER",      

@@ -25,7 +25,6 @@ h2 {
     margin-bottom: 3rem;    
 }
 
-
 h3 {
     color: #343a40;
     text-decoration: none;
@@ -33,11 +32,6 @@ h3 {
     font-size: 1.7rem;
     font-weight: 700;
     line-height: 30px;
-}
-
-.quandoResp, .quandoFull {
-        
-
 }
 
 .quandoResp, .tipoResp {

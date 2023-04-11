@@ -8,9 +8,16 @@ import { Component } from '@angular/core';
 export class StudiComponent {
   datiIst = [
     {
+      title: "Academy front-end developer",
+      dove: "BcSoft s.r.l.",
+      tipo: "- (In aula virtuale",
+      cosa: "L'obiettivo del corso è la creazione di programmatori specializzati nello sviluppo della parte front end di siti e applicazioni web. L'allievo acquisterà le competenze sui linguaggi come: HTML, CSS, Javascript, Node JS, Basi di SQL e approfondendo il framework Angular.",
+      quando: "20/02/2023 - 28/03/2023 (218 ore)"
+    },
+    {
       title: "JAVASCRIPT (ES20), TYPESCRIPT (2.X E 3.X) E GIT",
       dove: "UDEMY / AUTODIDATTA",
-      tipo: " - ROMA",
+      tipo: "- ROMA",
       cosa: "Argomenti: Studio introduttivo che ha posto le basi per passare a un framework come nodejs, Angular, Vue o React a seconda dell'esigenza. Gli argomenti trattati di Javascript sono stati quelli pre ES15 fino ad arrivare alla programmazione asincrona, per proseguire fino alla ES20. Typescript, tutti i concetti fondamentali delle versioni 2.X e 3.X. Ho imparato a versionare il software con Git con piattaforma GitHub. Come progetto finale ho realizzato una web app con js e totalmente responsive, nello specifico una ToDo App per mettere in pratica le nozioni appena acquisite.",
       quando: "05/2022 (200 ore)"
     },
