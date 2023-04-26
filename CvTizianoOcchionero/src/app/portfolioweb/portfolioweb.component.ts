@@ -39,7 +39,7 @@ export class PortfoliowebComponent {
     },
     {
       title: "Cv Online vecchia versione",
-      url: "http://http://cvtizianoocchionero.altervista.org/vecchiosito/index.html",
+      url: "../assets/vecchiosito/index.html",
       p: "Precedente cv online, praticamente identico a questo con la differenza che quello attuale è fatto in angular, senza bootstrap. Quello precedente è scritto completamente in ogni parte del sito mentre questo tramite gli *ngFor"
     }
   ]
